@@ -30,7 +30,7 @@ import jakarta.persistence.MappedSuperclass;
  * @author Juergen Hoeller
  */
 @MappedSuperclass
-public class BaseEntity implements Serializable {
+public class BaseEntity1 implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
